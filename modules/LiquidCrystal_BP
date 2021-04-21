@@ -1,0 +1,15 @@
+#include <LiquidCrystal.h>
+//                 RS   E     D4   D5   D6   D7
+LiquidCrystal lcd(PB11, PB10, PB0, PA7, PA6, PA5);
+
+void setup() {
+  lcd.begin(16, 2);
+  lcd.clear();
+}
+
+void loop() {
+  lcd.setCursor(0,0);
+  lcd.print("Watch this...");
+  lcd.setCursor(0,1);
+  lcd.print("Hello World");
+}
