@@ -1,7 +1,5 @@
 /*
    Sistema de seguridad con una teclado matricial y una pantalla LCD 16x2
-   Santiago Charry y Jair Copete
-   23 de abril de 2021
 */
 #include <LiquidCrystal.h>
 #include <Adafruit_Keypad.h>
